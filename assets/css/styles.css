@@ -1,0 +1,109 @@
+.imagenTitulo {
+  height: 250px;
+  width: auto;
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+.encabezado {
+  position: relative;
+  height: 300px;
+  background-color: bisque;
+  
+}
+
+.fondo{
+  background-image: url("../img/fondo.avif");
+  background-position: center;
+  background-size: 105%
+}
+
+.productos {
+  height: 100%;
+  background-color: #e0d0fb;
+}
+
+.listadoProductos {
+  display: inline;
+}
+
+.centered {
+  position: absolute;
+  top: 39%;
+  left: 30%;
+}
+.estiloTitulo {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 25px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: #ff3aad;
+  font-weight: 400;
+  text-decoration: none solid rgb(68, 68, 68);
+  font-style: italic;
+  font-variant: normal;
+  text-transform: capitalize;
+  text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff, 1px 1px #fff,
+    -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+}
+.subtitulo {
+  position: absolute;
+  right: 0%;
+  top: 35%;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: #510de4;
+  font-weight: 400;
+  text-decoration: none solid rgb(68, 68, 68);
+  font-style: italic;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffc2d1;
+}
+.producto {
+  width: 400px;
+  display: flex;
+  margin: 25px 25px;
+  justify-content: space-between;
+}
+.imagen {
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+}
+.imagen img {
+  width: 100%;
+}
+.texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 16px;
+  color: #826069;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 900;
+  line-height: 0px;
+  width: 150px;
+}
+
+.footer {
+  height: 100px;
+  background-color: rgb(187, 152, 248);
+
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: #510de4;
+  font-weight: 400;
+  text-decoration: none solid rgb(68, 68, 68);
+  font-style: italic;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
